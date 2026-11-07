@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        var x = prompt("sıfırla 10 arasında bir sayı giriniz");
+        try{
+            if(x>10)
+            throw "err1";
+        else if(x<10)
+        throw"err2";
+        }
+        catch (err)
+        {
+            if(err="err1")
+            alert("error ! yüksek bir sayı giriniz.");
+        if(err=="err2")
+        alert("error !düşük bir sayı giriniz.");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
