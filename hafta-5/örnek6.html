@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var time = new Date ().getHours();
+        if (time < 10){
+            document.write(" günaydın");
+        }
+        else if (time>10){
+            document.write("iyi günler");
+        }
+        else {
+            document.write(" iyi akşamlar");
+        }
+        switch(time){
+            case 10:time="saat 10";break;
+            case 11:time="saat 11";break;
+            default:time="saat 10 ile 11 arasında"; break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

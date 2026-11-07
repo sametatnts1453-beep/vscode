@@ -1,0 +1,1 @@
+document.write("merhaba dünya!");document.write("hello world.")
